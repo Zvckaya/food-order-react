@@ -1,7 +1,11 @@
+import CartIcon from "../Cart/Cart";
+
 const HeaderCartButton = (props) => {
   return (
     <button>
-      <span></span>
+      <span>
+        <CartIcon />
+      </span>
       <span></span>
       <span></span>
     </button>
